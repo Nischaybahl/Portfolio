@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nischay Bahl — Full Stack Developer</title>
+  <meta name="description"
+    content="Portfolio of Nischay Bahl – Full Stack Developer, MERN Stack Specialist, Campus Ambassador @Google, and Creator of CampX.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div id="scroll-progress"></div>
+  <div id="copy-toast" class="copy-toast"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">N<span>B</span>.</a>
+    <div class="nav-links">
+      <a href="#hero" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-left">
+      <p class="hero-year">PORTFOLIO — 2025</p>
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">NISCHAY<br><span class="red">BAHL</span></h1>
+      <p class="hero-subtitle">Building real-world solutions that make an impact</p>
+      <div class="hero-typewriter">
+        <span id="typewriter-text"></span><span class="cursor">|</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View My Work</a>
+        <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-envelope"></i> Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-avatar-wrap">
+        <img src="assets/1731476595139.jpeg" alt="Nischay Bahl" class="hero-avatar">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header reveal">
+      <p class="section-number">02</p>
+      <p class="section-label">Get to know me</p>
+      <h2 class="section-title">ABOUT <span class="italic">Me</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-image-wrap reveal-left">
+        <div class="about-image-container">
+          <img src="assets/1731476595139.jpeg" alt="Nischay Bahl">
+        </div>
+        <div class="about-image-tag">DEVELOPER</div>
+      </div>
+      <div class="about-text reveal-right">
+        <h3>A DEVELOPER WHO<br>BUILDS <span class="italic">to Solve</span></h3>
+        <p>I'm a 3rd-year BTech CSE student at Medicaps University, Indore, with a strong foundation in full-stack web
+          development. I love turning ideas into real, impactful products — my project <strong>CampX</strong> was
+          selected by our college HOD and is now being deployed for teacher usage across the department.</p>
+        <p>When I'm not coding, I'm leading social media strategies for E-Cell Medicaps or representing Google and
+          E-Cell IIT Bombay as a Campus Ambassador.</p>
+        <div class="role-badges">
+          <span class="role-badge"><i class="fa-brands fa-google"></i>&nbsp; Google Ambassador</span>
+          <span class="role-badge"><i class="fa-solid fa-building"></i>&nbsp; E-Cell IIT Bombay</span>
+          <span class="role-badge"><i class="fa-solid fa-laptop-code"></i>&nbsp; Infosys Intern</span>
+          <span class="role-badge"><i class="fa-solid fa-bullhorn"></i>&nbsp; Social Media Head</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-dark">
+    <div class="section-header center reveal">
+      <p class="section-number">03</p>
+      <p class="section-label">What I work with</p>
+      <h2 class="section-title">TECHNICAL <span class="red italic">Skills</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <div class="skill-category-num">01</div>
+        <h3>FRONTEND</h3>
+        <div class="skill-items">
+          <span class="skill-item">React.js</span>
+          <span class="skill-item">JavaScript (ES6+)</span>
+          <span class="skill-item">HTML5</span>
+          <span class="skill-item">CSS3 / SASS</span>
+          <span class="skill-item">Tailwind CSS</span>
+          <span class="skill-item">Bootstrap</span>
+          <span class="skill-item">Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-category-num">02</div>
+        <h3>BACKEND</h3>
+        <div class="skill-items">
+          <span class="skill-item">Node.js</span>
+          <span class="skill-item">Express.js</span>
+          <span class="skill-item">MongoDB</span>
+          <span class="skill-item">REST APIs</span>
+          <span class="skill-item">JWT Auth</span>
+          <span class="skill-item">Mongoose</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-category-num">03</div>
+        <h3>TOOLS</h3>
+        <div class="skill-items">
+          <span class="skill-item">Git / GitHub</span>
+          <span class="skill-item">Postman</span>
+          <span class="skill-item">VS Code</span>
+          <span class="skill-item">Vercel</span>
+          <span class="skill-item">Figma</span>
+          <span class="skill-item">C / C++</span>
+          <span class="skill-item">Python</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <p class="section-number">04</p>
+      <p class="section-label">Featured work</p>
+      <h2 class="section-title">MY <span class="red italic">Projects</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-wrapper">
+      <div class="project-featured reveal">
+        <div class="project-featured-img">
+          <span class="featured-badge"><i class="fa-solid fa-star"></i>&nbsp; HOD SELECTED — OFFICIAL DEPLOYMENT</span>
+          <img src="assets/campx.png" alt="CampX Dashboard">
+        </div>
+        <div class="project-featured-content">
+          <h3>CAMPX</h3>
+          <p>A comprehensive campus management platform built from scratch. Selected by the college HOD for official
+            deployment, now used by teachers and students for complaint management, event coordination, and campus
+            communication.</p>
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">Express</span>
+            <span class="project-tag">MongoDB</span>
+            <span class="project-tag">JWT Auth</span>
+            <span class="project-tag">REST API</span>
+          </div>
+          <div class="project-links">
+            <a href="https://camp-x-lac.vercel.app" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+              Demo</a>
+            <a href="https://github.com/Nischaybahl/Camp-X" target="_blank" rel="noopener" class="btn btn-dark btn-sm"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-card-img">
+            <img src="assets/instagram.png" alt="Instagram Clone">
+            <div class="project-card-overlay">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye"></i> View</a>
+              <a href="#" class="btn btn-outline btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h4>INSTAGRAM CLONE</h4>
+            <p>A fully functional social media clone with user auth, image posts, stories, likes, and real-time feed —
+              replicating the core Instagram experience.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-card-img">
+            <img src="assets/waste.png" alt="Smart Waste Pickup">
+            <div class="project-card-overlay">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye"></i> View</a>
+              <a href="https://github.com/springboardmentor-104/WasteZero_Infosys_Internship_Oct2025_Team_02" target="_blank" rel="noopener" class="btn btn-outline btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h4>SMART WASTE PICKUP</h4>
+            <p>An intelligent waste management system with route optimization, real-time bin monitoring, and scheduled
+              pickup management.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Maps API</span>
+              <span class="project-tag">Node.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header reveal">
+      <p class="section-number">05</p>
+      <p class="section-label">My journey</p>
+      <h2 class="section-title">EXPERIENCE & <span class="red italic">Roles</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <p class="timeline-date">2025</p>
+          <h4>FULL STACK DEVELOPER INTERN</h4>
+          <p class="timeline-org">Infosys Springboard</p>
+          <p>Working on real-world development projects, building scalable web applications with the MERN stack and
+            modern deployment practices.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <p class="timeline-date">APR 2025 — MAY 2025</p>
+          <h4>WEB DEVELOPMENT INTERN</h4>
+          <p class="timeline-org">Codveda Technologies</p>
+          <p>Completed a hands-on web development internship, building real-world web solutions and sharpening skills in
+            frontend and backend technologies. Recognized for exceptional dedication, effective communication, and a
+            strong passion for web development.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <p class="timeline-date">2024 — 2025</p>
+          <h4>CAMPUS AMBASSADOR</h4>
+          <p class="timeline-org">Google & E-Cell IIT Bombay</p>
+          <p>Representing Google and IIT Bombay's entrepreneurship cell on campus — organizing events, driving tech
+            engagement, and bridging the industry-academia gap.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <p class="timeline-date">2024 — 2025</p>
+          <h4>HEAD OF SOCIAL MEDIA</h4>
+          <p class="timeline-org">E-Cell Medicaps University</p>
+          <p>Leading the social media strategy for the Entrepreneurship Cell, creating content that drives engagement
+            and builds community around innovation.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <p class="timeline-date">2025 — Present</p>
+          <h4>HEAD OF SOCIAL MEDIA</h4>
+          <p class="timeline-org">Sahityik</p>
+          <p>Driving Sahityik’s digital presence by crafting compelling content strategies that engage audiences and
+            build an active online community for literature and art enthusiasts.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <p class="timeline-date">2025 — PRESENT</p>
+          <h4>FOUNDER & CREATOR — CAMPX</h4>
+          <p class="timeline-org">Medicaps University</p>
+          <p>Built and launched CampX from scratch — a comprehensive campus platform that earned official recognition
+            from the HOD and is now deployed for daily teacher and student usage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section-dark">
+    <div class="section-header center reveal">
+      <p class="section-number">06</p>
+      <p class="section-label">Recognition</p>
+      <h2 class="section-title">ACHIEVEMENTS & <span class="red italic">Certifications</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="achievements-grid">
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-solid fa-trophy"></i></div>
+        <h4>CAMPX </h4>
+        <p>Student platform officially deployed for teacher usage at Medicaps University</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-brands fa-google"></i></div>
+        <h4>GOOGLE AMBASSADOR</h4>
+        <p>Selected as official campus representative for Google programs</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-solid fa-certificate"></i></div>
+        <h4>INFOSYS CERTIFIED</h4>
+        <p>Full Stack Development certification through Infosys Springboard</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h4>E-CELL IIT BOMBAY</h4>
+        <p>Appointed Campus Ambassador for India's premier entrepreneurship cell</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-solid fa-lightbulb"></i></div>
+        <h4>SMART INDIA HACKATHON 2025</h4>
+        <p>Participated in SIH 2025 internal round at Medicaps University — a national-level hackathon by the Government
+          of India</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-solid fa-code"></i></div>
+        <h4>ADVANCED DSA — BOARD INFINITY</h4>
+        <p>Completed Advanced Data Structures and Algorithms certification from Board Infinity</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-brands fa-java"></i></div>
+        <h4>ALPHA — DSA WITH JAVA</h4>
+        <p>Completed the Alpha (DSA with Java) course from Apna College by Shradha Khapra</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <h4>DELTA — FULL STACK WEB DEV</h4>
+        <p>Completed the Delta (Full Stack Web Development) course from Apna College by Shradha Khapra</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header center reveal">
+      <p class="section-number">07</p>
+      <p class="section-label">Reach out</p>
+      <h2 class="section-title">LET'S <span class="red italic">Connect</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-wrapper reveal">
+      <p class="contact-message">STAY IN <span class="italic">touch</span></p>
+      <p class="contact-sub">Have a project in mind or just want to say hello? I'd love to hear from you.</p>
+      <div class="contact-links">
+        <a href="mailto:nischay.bahl.11681@gmail.com" class="contact-link" id="contact-email">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="16" x="2" y="4" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+          EMAIL
+        </a>
+        <div class="contact-link" onclick="copyToClipboard('+91 9111033550')" id="contact-phone">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          PHONE
+        </div>
+        <a href="https://linkedin.com/in/nischay-bahl-03407a322" target="_blank" rel="noopener" class="contact-link"
+          id="contact-linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect width="4" height="12" x="2" y="9" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          LINKEDIN
+        </a>
+        <a href="https://github.com/nischaybahl" target="_blank" rel="noopener" class="contact-link"
+          id="contact-github">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4" />
+            <path d="M9 18c-4.51 2-5-2-7-2" />
+          </svg>
+          GITHUB
+        </a>
+      </div>
+      <div class="contact-link" onclick="copyToClipboard('nischay.bahl.11681@gmail.com')"
+        style="margin:0 auto;width:fit-content;cursor:pointer;">
+        <i class="fa-regular fa-copy"></i>&nbsp; COPY EMAIL
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Designed & Built by <span>Nischay Bahl</span> &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
