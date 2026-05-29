@@ -1,5 +1,5 @@
 /* ===== TYPEWRITER ===== */
-const typewriterTexts = ['Full Stack Developer', 'MERN Stack Specialist', 'Frontend Engineer', 'Campus Ambassador @Google', 'Creator of CampX'];
+const typewriterTexts = ['Full Stack Developer', 'AI Enthusiast', 'MERN Stack Specialist', 'B.Tech CSE Student', 'Campus Ambassador @Google', 'Creator of CampX'];
 let twIndex = 0, charIndex = 0, isDeleting = false;
 const typewriterEl = document.getElementById('typewriter-text');
 function typewrite() {
